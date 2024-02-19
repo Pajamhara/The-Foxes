@@ -1,0 +1,71 @@
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:90px; /* Change to your desired background color */
+    padding: 10px;
+    transition: top 0.5s ease; /* Add smooth transition effect */
+  }#bannière{
+    height: 420px;
+    background-size:cover;
+    background:linear-gradient(to right bottom,rgb(201, 39, 39),rgb(40, 37, 98));
+  }
+  .cover{
+    float:left;
+  }
+  .body{
+    background-color: #f7f7f7;
+  }
+  .Titres {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:250px;
+    font-size:16px;
+    padding-top:200px
+  }
+  .Parts {
+    font-size:16px;
+    float:left;
+    padding-left:250px;
+    width:50%;
+  }
+  .search{
+    float:right;
+    margin-right:20px;
+    width:250px;
+    border-radius:50px;
+    background-color:transparent;
+    border: 1px solid #ababab;
+    outline:none;
+    color:white;
+  }
+  ::placeholder {
+    color:rgb(255, 255, 255);
+    padding-left:10px
+  }
+  .Chords{
+color:#ababab;
+  }
+  
+  button{
+  float:right;
+  }
+  
+  @media only screen and (max-width: 768px) { 
+    
+  .Parts,
+  .Lyrics {
+    float:none;
+    width:100%
+  }
+  
+  .search{
+    margin-top:-1.5%;
+    margin-right:10px;
+  }
+  #bannière{
+    padding-top:5px;
+  }
+  
+  }
