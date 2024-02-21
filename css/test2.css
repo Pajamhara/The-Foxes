@@ -1,62 +1,55 @@
-.sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0;
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+.pure-js-carousel { overflow: hidden; }
+.pure-js-carousel-list:before, .pure-js-carousel-list:after {
+  content: "";
+  display: table;
 }
+.pure-js-carousel-list:after { clear: both; }
+.pure-js-carousel-slide { float: left; }
 
-/* The sidebar links */
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
 
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* The button used to open the sidebar */
-.openbtn {
-  font-size: 20px;
+.pure-js-carousel-btn {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
   cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+  height: 20px;
+  margin-top: -35px;
+  position: absolute;
+  top: 50%;
+  width: 20px;
 }
-
-.openbtn:hover {
-  background-color: #444;
+.pure-js-carousel-btn-next {
+  border-bottom: 3px solid #f00;
+  border-right: 3px solid #f00;
+  right: 5px;
+  -moz-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
 }
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s; /* If you want a transition effect */
-  padding: 20px;
+.pure-js-carousel-btn-prev {
+  border-bottom: 3px solid #f00;
+  border-left: 3px solid #f00;
+  left: 5px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+.pure-js-carousel-dots {
+  float: left;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+.pure-js-carousel-dot {
+  display: inline-block;
+  margin: 0 5px;
+}
+.pure-js-carousel-dot-btn {
+  background: green;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.active .pure-js-carousel-dot-btn {
+  background: blue;
 }
