@@ -67,4 +67,14 @@
   .liens{
     margin-right:50px;
   }
+  .section-title{
+    text-align: center;
+    margin-bottom:-0.0000001px
+  }
+  .concept-item{
+    margin-left:22%;
+    width:230px;
+    height:230px;
+    margin-bottom:80px;
+  }
   }
