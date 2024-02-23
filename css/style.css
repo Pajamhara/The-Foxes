@@ -2267,5 +2267,10 @@ Responsive
 .footer-widget{
 	margin-left:22%
 }
-
+.slicknav_btn {
+	position: relative;
+	top: -24px;
+	background: #1c294a;
+	margin-top:-15px;
+}
 }
