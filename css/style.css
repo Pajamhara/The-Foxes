@@ -232,6 +232,11 @@ Header section
 	padding: 0;
 	padding: 44px 15px;
 }
+.logo{
+	height: 55px;
+	width:55px;
+	margin-top:-20px;
+}
 
 .header-right {
 	float: right;
@@ -2271,6 +2276,8 @@ Responsive
 	position: relative;
 	top: -24px;
 	background: #1c294a;
-	margin-top:-15px;
+	margin-top:-10px;
+	margin-right:20px;
 }
+
 }
