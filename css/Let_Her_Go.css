@@ -4,14 +4,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    height:89px; /* Change to your desired background color */
+    height:100px; /* Change to your desired background color */
     padding: 10px;
     transition: top 0.5s ease; /* Add smooth transition effect */
     background:linear-gradient(#A96B3F,#89644B);
 
   }
   .bannière{
-    height: 420px;
+    height: 435px;
     background-size:cover;
     background:linear-gradient(#A96B3F,#124C77);
   }
