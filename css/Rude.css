@@ -1,17 +1,17 @@
 .sticky-header {
-  position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height:100px;
+    height:100px; /* Change to your desired background color */
     padding: 10px;
-    transition: top 0.5s ease;
-    background:linear-gradient(#944C34,#87402F);
+    transition: top 0.5s ease; /* Add smooth transition effect */
+    background:linear-gradient(#f59a5e,#EF9A57);
   }
   .bannière{
     height: 435px;
     background-size:cover;
-    background:linear-gradient(#944C34,#55151D);
+    background:linear-gradient(#f59a5e,#dd9c41);
   }
   .cover{
     float:left;
@@ -44,11 +44,11 @@
   }
   input:focus::placeholder {
     color: transparent;
+    
   }
   ::placeholder {
     color:rgb(255, 255, 255);
     padding-left:-10px;
-
   }
   .Chords{
   color:#ababab;
@@ -71,37 +71,37 @@
   
   }
   button:hover {
-    background-color: #55151D;
+    background-color: #124C77;
     color:white;
   }
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    
-  .Lyrics {
-    float:none;
-    width:100%;
-  }
   
-  .search{
-    margin-top:-1.5%;
-    margin-right:10px;
-  }
-  .bannière{
-    padding-top:5px;
-    height:420px;
-    width:1500px;
-  }
-
-  .Titres{
-      padding-left:40%;
-  }
-  .Chords{
-      padding-left:40%;
-  }
-  .Lyrics{
-      padding-left:40%;
-  }
-  }
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      
+    .Lyrics {
+      float:none;
+      width:100%;
+    }
+    
+    .search{
+      margin-top:-1.5%;
+      margin-right:10px;
+    }
+    .bannière{
+      padding-top:5px;
+      height:610px;
+      width:1100px;
+    }
+  
+    .Titres{
+        padding-left:40%;
+    }
+    .Chords{
+        padding-left:40%;
+    }
+    .Lyrics{
+        padding-left:40%;
+    }
+    }
